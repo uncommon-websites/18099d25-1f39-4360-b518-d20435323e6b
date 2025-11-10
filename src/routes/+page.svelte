@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Solar installation made simple"
+	subtitle="Voice-guided design and coordination that eliminates the confusion, paperwork, and delays."
+	imageSrc="/generated/image-a-group-of-confident-homeowners-aged-35-.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/redfin.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/opendoor.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/lennar.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/sunnova.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
