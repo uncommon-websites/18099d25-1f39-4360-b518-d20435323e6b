@@ -26,62 +26,91 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="How it works"
+	text="We automate solar installation from start to finish. Our voice agents guide homeowners through system design while our software coordinates installers at 3x normal efficiency. What used to take months of confusion and paperwork now happens smoothly in weeks."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Anand",
+			position: "Homeowner",
+			company: "Mountain View, CA",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The entire process took just 6 weeks instead of the 4-6 months my neighbors spent. The voice-guided system walked me through design choices in under an hour, and coordination was seamless. I saved $8,400 compared to traditional quotes.",
+			image: "/generated/image-editorial-documentary-photograph-of-a-pr.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Carlos Rivera",
+			position: "Homeowner",
+			company: "Austin, TX",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"After getting three confusing quotes from other companies, this was refreshingly simple. The voice agent explained every option clearly, the installers showed up exactly when promised, and I avoided the usual contractor runaround. Worth every penny for the peace of mind alone.",
+			image: "/generated/image-editorial-documentary-image-of-a-profess.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Keisha Thompson",
+			position: "Homeowner",
+			company: "Phoenix, AZ",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I was skeptical about solar after hearing horror stories, but the risk disappeared completely. Fixed pricing from day one, real-time coordination updates, and installation finished in 3 weeks. My energy bills dropped 72% in the first month. This is how solar should work.",
+			image: "/generated/image-editorial-documentary-photograph-of-a-pr.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Everything you need for a seamless solar installation"
+	subtitle="From your first conversation to final activation, our technology handles the complexity so you don't have to."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Voice-guided system design",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Talk through your energy needs and roof details naturally while our AI instantly generates a custom solar system design. No confusing jargon or technical expertise required."
 		},
 		{
-			title: "Data Analysis",
+			title: "Instant transparent pricing",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Get clear, itemized quotes with federal tax credits and financing options calculated in real-time. No hidden fees or surprise costs."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Automated installer coordination",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Our software automatically schedules permits, inspections, and installation crews at 3x the efficiency of traditional solar companies. Your timeline stays on track."
+		},
+		{
+			title: "Zero paperwork hassle",
+			description:
+				"We handle all permits, utility interconnections, and tax credit applications automatically through our software platform. You just sign digitally when needed."
+		},
+		{
+			title: "Real-time progress tracking",
+			description:
+				"Watch every step from permit approval to panel activation through your personalized dashboard. Know exactly what's happening and when."
+		},
+		{
+			title: "Vetted installer network",
+			description:
+				"Every installer in our network is background-checked, licensed, and rated by previous customers. Quality work backed by our performance guarantee."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Start your solar journey in minutes"
+	subtitle="Not months"
+	description="While traditional solar companies leave you waiting weeks for quotes and drowning in paperwork, our voice-guided system designs your custom solar installation in under an hour. Join hundreds of homeowners who escaped the confusion and got their systems installed 3x faster."
+	imageSrc="/generated/image-editorial-documentary-style-image-of-a-c.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Design your system now",
+			variant: "primary"
+		},
+		{
+			href: "/how-it-works",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>

@@ -69,15 +69,16 @@
 <div class="" {...rest}>
 	<section class="section-px section-py container mx-auto">
 		<div
-			class="bg-card border-border grid content-start items-center justify-between gap-(--gap) rounded-(--radius) border p-(--gap) text-balance [--gap:--spacing(8)] [--inner-radius:calc(var(--radius)-var(--gap))] [--radius:var(--radius-xl)] lg:grid-cols-[2fr_1fr]"
+			class="relative grid content-start items-center justify-between gap-(--gap) overflow-hidden rounded-(--radius) border border-primary/20 p-(--gap) text-balance [--gap:--spacing(8)] [--inner-radius:calc(var(--radius)-var(--gap))] [--radius:var(--radius-xl)] lg:grid-cols-[2fr_1fr]"
+			style="background: linear-gradient(135deg, oklch(0.511 0.262 276.966) 0%, oklch(0.609 0.126 221.723) 50%, oklch(0.457 0.24 277.023) 100%);"
 		>
 			<div class="items-between grid h-full content-between gap-16">
-				<h2 class="text-title1 mb-3 flex flex-col">
+				<h2 class="text-title1 mb-3 flex flex-col text-white">
 					<span><AnimateText text={title} /></span>
-					<span class="text-emphasis-low"><AnimateText text={subtitle} /></span>
+					<span class="opacity-90"><AnimateText text={subtitle} /></span>
 				</h2>
 				<div class="flex flex-col items-start justify-start gap-7">
-					<p class="text-headline text-emphasis-low">
+					<p class="text-headline text-white/90">
 						{description}
 					</p>
 					<div class="flex w-full flex-col gap-2 md:flex-row md:flex-wrap">
@@ -91,8 +92,8 @@
 			</div>
 			<img
 				src={imageSrc}
-				alt="Visual comparison showing product benefits"
-				class="hidden aspect-[4/5] size-full max-h-full w-full rounded-[calc(max(var(--inner-radius),.25rem))] object-cover lg:block"
+				alt="Satisfied homeowner with completed solar installation"
+				class="hidden aspect-[4/5] size-full max-h-full w-full rounded-[calc(max(var(--inner-radius),.25rem))] border border-white/10 object-cover lg:block"
 			/>
 		</div>
 	</section>
